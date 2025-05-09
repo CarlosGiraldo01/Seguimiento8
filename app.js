@@ -6,7 +6,6 @@ const listaTareas = document.getElementById("lista-tareas")
 
 // Obtener tareas del localStorage
 
-//Hecho con ChatGPT porque no pude solucionar un error, que no entendia.
 function obtenerTareasLocalStorage() {
     const raw = localStorage.getItem("tareas");
     if (!raw || raw === "undefined") return [];
